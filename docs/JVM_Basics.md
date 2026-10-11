@@ -36,6 +36,4 @@ In many other languages, when you compile a program, the output is tied to a spe
 
 Java solves this by adding the JVM as a universal layer between your code and the hardware. You compile your `.java` source code once, and the result is bytecode — a platform-neutral format. Any machine that has a JVM installed can then run that bytecode, regardless of whether the machine runs Windows, macOS, Linux, or even an embedded system. The JVM is responsible for translating the bytecode into the native machine instructions for whatever hardware it runs on.
 
-In practice this means a developer can write and compile a Java application on a Linux laptop, hand the `.class` files (or a `.jar` archive) to a colleague on Windows, and it will run identically — no recompilation, no code changes. The phrase "write once, run anywhere" captures exactly this: you do the compilation work **once**, and the resulting bytecode works **everywhere** a JVM is available.
-
 ---
